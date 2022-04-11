@@ -2,7 +2,7 @@ import React from 'react'
 
 function Visual() {
     return (
-        <figure>Visual</figure>
+        <figure id='visual'>Visual</figure>
     )
 }
 
