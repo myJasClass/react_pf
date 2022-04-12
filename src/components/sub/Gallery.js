@@ -1,14 +1,10 @@
-import React from 'react'
+import Layout from '../common/Layout';
 
 function Gallery() {
   return (
-    <section className='content gallery'>
-      <figure></figure>
-
-      <div className="inner">
-        <h1>Gallery</h1>
-      </div>
-    </section>
+    <Layout name={'gallery'}>
+      <p>갤러리컨텐츠</p>
+    </Layout>
   )
 }
 

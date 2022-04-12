@@ -13,6 +13,7 @@ import Content from './components/main/Content';
 //sub 컴포넌트 
 import Youtube from './components/sub/Youtube';
 import Gallery from './components/sub/Gallery';
+import Member from './components/sub/Member';
 
 
 
@@ -36,6 +37,8 @@ function App() {
 
       <Route exact path='/youtube' component={Youtube} />
       <Route exact path='/gallery' component={Gallery} />
+      <Route exact path='/member' component={Member} />
+
 
       <Footer />
     </>
