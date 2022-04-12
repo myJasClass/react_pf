@@ -14,7 +14,12 @@ function Member() {
     }, []);
 
     return (
-        <Layout name={'Member'}>
+        <Layout name={'member'}>
+            {/* <button onClick={() => {
+                const newMembers = [...members];
+                newMembers[0].name = 'Jane';
+                setMembers(newMembers);
+            }}>멤버정보 변경</button> */}
             <ul className="memberList">
                 {members.map((member, idx) => {
                     return (
