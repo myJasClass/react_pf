@@ -1,0 +1,33 @@
+.youtube{
+     
+    article{
+        width: 300px; border: 1px solid #999; 
+        padding: 20px; margin: 20px;
+        cursor: pointer;
+        img{
+            width: 100%; margin-bottom: 20px; 
+        }
+
+        h2{
+            font:bold 18px/1.2 'arial'; color: #555; 
+            margin-bottom: 10px; 
+        }
+        p{
+            font:12px/1.2 arial; color: #888; margin-bottom: 20px; 
+            width: 100%; 
+            // 3줄이 넘으면 말줄임표하고 넘치지 않게 하기 
+            text-overflow: ellipsis; //말줄임표 
+            height: 43px; //3줄 line-height포함  
+            overflow: hidden; //넘치는 부분 안보이게          
+            display: -webkit-box;
+            line-clamp: 3; //몇줄뒤에 콘텐츠 자를지 지정
+           
+            -webkit-box-orient: vertical; 
+        }
+        span{
+            font:11px/1 arial; color: orange;
+            margin-bottom: 20px;
+        }
+    }
+}
+ 
