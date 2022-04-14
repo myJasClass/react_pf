@@ -15,6 +15,8 @@ import Youtube from './components/sub/Youtube';
 import Gallery from './components/sub/Gallery';
 import Member from './components/sub/Member';
 import Location from './components/sub/Location';
+import Join from './components/sub/Join';
+
 
 
 function App() {
@@ -39,6 +41,8 @@ function App() {
       <Route exact path='/gallery' component={Gallery} />
       <Route exact path='/member' component={Member} />
       <Route exact path='/location' component={Location} />
+      <Route exact path='/join' component={Join} />
+
 
       <Footer />
     </>
